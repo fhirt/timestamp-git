@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const IP = 80;
+const IP = process.env.PORT || 8080;
 
 var answer = {
     "unix": "unixdate",
