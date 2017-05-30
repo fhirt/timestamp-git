@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const IP = 80;
 
 var answer = {
     "unix": "unixdate",
@@ -48,6 +49,6 @@ app.get('/:date', function(req, res) {
     res.send(answer);
 });
 
-app.listen(8080, function () {
-    console.log('Example app listening on port 8080!');
+app.listen(IP, function () {
+    console.log('Example app listening on port ' + IP);
 });
