@@ -5,4 +5,4 @@ Build a full stack JavaScript app that implements the following User Stories:
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 
-[link to app](https://radiant-river-61561.herokuapp.com/)
+[link to app](https://fhirt-timestamp-microservice.herokuapp.com/)
